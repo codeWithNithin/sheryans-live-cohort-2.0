@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+.header {
+    width: 100%;
+    background-color: #000;
+}
+
+.nav-items {
+    list-style: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 50px;
+}
+
+.main {
+    height: 80%;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_large.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+h4 {
+    font-size: 25px;
+    margin-bottom: 16px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.learn-btn {
+    background-color: blue;
+}
+
+.buy-btn {
+    background-color: transparent;
+    border: 1px solid blue;
+}
