@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    background-color: #000;
+    color: #fff;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: absolute;
+    z-index: 2;
+    top: 15px;
+}
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    top: 25px;
+}
+
+.parent {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+}
+
+.box-4 {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position: absolute;
+    left: 80%;
+    z-index: 999;
+}
