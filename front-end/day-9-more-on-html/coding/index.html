@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- UTF-8, means browser correctly encodes normal charecters, emojis and symbols. -->
     <meta charset="UTF-8" />
+    <!-- viewport is for our complete screen width based on which website will be shown -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <!-- title indicates web page title -->
+    <title>My First Page</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta name="description" content="this is my first page" />
+    <!-- this is not recommended by google -->
+    <meta name="keywords" content="modern tech, web dev, headphone, " />
   </head>
   <body>
     <img
@@ -29,16 +36,32 @@
     ></video>
 
     <form>
-      <input type="text" placeholder="enter name"/>
-      <input type="password" placeholder="enter password"/>
+      <input type="text" placeholder="enter name" />
+      <br />
+      <br />
+
+      <input type="password" placeholder="enter password" />
+      <br />
+      <br />
+
+      <input type="number" placeholder="enter number" />
+      <br />
+      <br />
+
+      <input type="checkbox" /> terms and conditions
+      <br />
+      <br />
+
+      <input name="gender" type="radio" /> Male
+      <input name="gender" type="radio" /> Female
+      <input name="gender" type="radio" /> Others
     </form>
 
     <!-- semantic tags -->
 
     <details>
-        <summary>this is a summary</summary>
-        ul>li
+      <summary>this is a summary</summary>
+      ul>li
     </details>
-
   </body>
 </html>
