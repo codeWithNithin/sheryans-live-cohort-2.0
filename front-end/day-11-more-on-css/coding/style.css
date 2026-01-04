@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.full-screen {
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    background: linear-gradient(to top, red, blue);
+}
+
+.box-1 {
+    width: 300px;
+    height: 300px;
+    /* background-color: red; */
+    background: linear-gradient(red, blue);
+    margin-bottom: 50px;
+}
+
+.box-2 {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(orange, white, green);
+}
+
+.box-3 {
+    width: 400px;
+    height: 400px;
+    /* background: linear-gradient(to left, lightblue, darkblue); */
+    /* background: linear-gradient(to right, lightblue, darkblue); */
+    /* background: linear-gradient(to top, lightblue, darkblue); */
+    background: linear-gradient(to bottom, lightblue, darkblue);
+}
+
+.box-4 {
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(yellow, orange);
+}
+
+.outer {
+    width: 300px;
+    height: 300px;
+    background-color: cyan;
+}
+
+.inner {
+    width: 50%;
+    height: 100px;
+    background-color: red;
+}
