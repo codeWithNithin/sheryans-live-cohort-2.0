@@ -1,0 +1,75 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ html,
+ body {
+     width: 100%;
+     height: 100%;
+ }
+
+ .main-header {
+     background-color: lightslategray;
+     color: white;
+     width: 100%;
+ }
+
+ .container {
+     padding: 50px 0;
+     text-align: center;
+ }
+
+ .name {
+     margin-bottom: 16px;
+ }
+
+ .role {
+     font-style: italic;
+     font-weight: 300;
+     font-size: 16px;
+ }
+
+ .about-me-text {
+     color: gray;
+ }
+
+ h3 {
+     margin-bottom: 16px;
+ }
+
+ .bg-cornblue {
+     background-color: cornflowerblue;
+ }
+
+ .bg-black {
+     background-color: black;
+ }
+
+ .bg-bisque {
+     background-color: bisque;
+ }
+
+ .bg-lightpurple {
+    background-color: blueviolet;
+ }
+
+ .bg-cyanblue {
+     background-color: cyan;
+ }
+
+ .box {
+     background-color: #fff;
+     padding: 10px;
+     border-radius: 4px;
+     margin-bottom: 6px;
+     margin-left: 20%;
+     margin-right: 20%;
+ }
+
+ footer {
+     padding: 16px;
+     text-align: center;
+     background-color: black;
+     color: #fff;
+ }
